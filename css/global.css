@@ -1,0 +1,30 @@
+* {
+  font-family: "Open-sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.btn {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.solid-color,
+.transparent {
+  font-size: 0.875rem;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.solid-color {
+  background-color: #a79770;
+}
+.transparent {
+  background-color: transparent;
+  border: solid 2px #fff;
+}
